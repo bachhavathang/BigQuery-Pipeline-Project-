@@ -11,3 +11,4 @@ env/
 outputs/*.csv
 outputs/*.parquet
 .DS_Store
+!screenshots/*.png
