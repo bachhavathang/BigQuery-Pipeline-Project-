@@ -105,9 +105,8 @@ Both pipeline output tables visible in the
 Google Cloud console.
 
 ![BigQuery Tables](screenshots/06_bigquery_tables.png)
-```
 
---- 
+---
 
 ## Pipeline
 
