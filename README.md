@@ -47,6 +47,56 @@ This matters for platform teams because undetected listing quality risk inflates
 | B004PZXJUO | Smaller Than Expected | Physical size significantly smaller than listing suggests |
 
 ---
+## Query Results & Visuals
+
+### Dataset Overview
+481,156 reviews across 100,170 unique products spanning 
+May 1996 to September 2023. Average rating: 3.98 stars.
+
+![Dataset Overview](screenshots/01_dataset_overview.png)
+
+### Rating Distribution — The J-Curve
+59.8% of all Beauty reviews are 5 stars. 
+Only 13.4% are 1 star. This J-curve is typical of 
+consumer marketplaces — but it masks the divergence 
+signal this project is designed to detect.
+
+![Rating Distribution](screenshots/02_rating_distribution.png)
+
+### Rating Quality Decline 2015–2023
+Contrary to the assumption of rating inflation, 
+average ratings in Beauty DECLINED from 4.18 in 2015 
+to 3.81 in 2021 — a 0.37 point drop over 7 years. 
+Five-star percentage fell from 63% to 56.4% over 
+the same period, with 2021 seeing the highest 
+one-star count (14,770 reviews).
+
+| Year | Reviews | 5-Star % | Avg Rating |
+|------|---------|----------|------------|
+| 2015 | 24,531 | 63.0% | 4.18 |
+| 2016 | 43,575 | 61.1% | 4.12 |
+| 2017 | 47,394 | 59.7% | 4.03 |
+| 2018 | 51,452 | 59.6% | 3.99 |
+| 2019 | 69,136 | 62.9% | 4.05 |
+| 2020 | 86,471 | 60.6% | 3.98 |
+| 2021 | 84,338 | 56.4% | 3.81 |
+| 2022 | 42,834 | 57.1% | 3.84 |
+
+### Divergence Signal by Product
+Products ranked by contradictory reviews — 
+high star rating paired with negative sentiment language.
+
+![Divergence Signal](screenshots/03_divergence_signal.png)
+
+### Review Velocity 2001–2023
+Near-zero activity until 2012, explosive growth 
+peaking at ~10,000 reviews/month in 2019-2020, 
+sharp decline post-2021 reflecting both dataset 
+cutoff and post-COVID market normalization.
+
+![Review Velocity](screenshots/04_review_velocity.png)
+
+---
 
 ## Pipeline
 
